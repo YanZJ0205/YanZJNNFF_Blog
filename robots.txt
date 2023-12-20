@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://dribble-njr.github.io/blog/sitemap.xml

@@ -1,0 +1,17 @@
+---
+home: true
+layout: BlogHome
+icon: home
+title: Home
+heroText: Hiya
+bgImage: /French_fries.jpg
+tagline: No tomato sauce, please.
+heroFullScreen: true
+projects:
+  - icon: https://yangxiaobai.top/gallery/photo/fixImg/avatar.webp
+    name: 杨小白
+    desc: The best way to predict the future is to invent it.
+    link: https://yangxiaobai.top/
+
+footer: No means Next Opportunity.
+---

@@ -47,7 +47,7 @@ export default hopeTheme({
     intro: '/intro.html'
   },
 
-  footer: 'Imagination is more important than knowledge.',
+  footer: 'Enquanto houver 1% de chance,teremo 99% fé.',
 
   displayFooter: true,
 
@@ -69,13 +69,13 @@ export default hopeTheme({
     blog: {
       excerptLength: 0,
     },
-    
+    /*
     comment: {
       // You should generate and use your own comment service
       provider: 'Waline',
-      serverURL: 'https://blog-api-yzjnnffs-projects.vercel.app/'
+      serverURL: 'https://blog-api-dribble-njr.vercel.app/'
     },
-    
+    */
     // all features are enabled for demo, only preserve features you need here
     mdEnhance: {
       align: true,

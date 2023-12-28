@@ -2,13 +2,11 @@ export default [
   {
     text: '算法',
     collapsible: true,
-    prefix:'/computer-science/algorithm/',
-    children: ['','001-signal-processing']
+    children: ['/computer-science/algorithm']
   },
   {
     text: '计算机网络',
     collapsible: true,
-    prefix:'/computer-science/networking/',
     children: ['/computer-science/networking']
   },
   {

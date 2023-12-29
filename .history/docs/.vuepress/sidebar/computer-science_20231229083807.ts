@@ -10,7 +10,7 @@ export default [
     collapsible: true,
     prefix:'/computer-science/networking/',
     children: ['','001-network-model', '002-HTTP-overview', '003-get-post-different', '004-HTTP-development', 
-    '005-HTTP-cache', '006-HTTPS-overview', '007-TCP-three-handshakes-and-four-waves', '008-TCP-and-UDP', '009-cross-domain', '010-what-happens-after-entering-the-URL']
+    '005-HTTP-cache', '006-HTTPS-overview', '007-TCP-three-handshakes-and-four-waves.', '008-TCP-and-UDP', '009-cross-domain', '010-what-happens-after-entering-the-URL']
   },
   {
     text: '操作系统',

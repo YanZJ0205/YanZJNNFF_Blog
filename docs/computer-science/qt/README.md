@@ -1,5 +1,5 @@
 ---
-title: 计算机网络
+title: Qt
 article: false
 icon: creative
 star: true

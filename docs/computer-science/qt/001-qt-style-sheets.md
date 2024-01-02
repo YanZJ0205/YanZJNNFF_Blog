@@ -70,6 +70,15 @@ sys.exit(app.exec_())
 
 [Qt Style Sheets Examples](https://doc.qt.io/qt-5/stylesheet-examples.html)
 
+###PyQt-Fluent-Widgets
+[zhiyiYo/PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) ——基于 C++ Qt/PyQt/PySide 的流畅设计小部件库
+
+小部件库：
+![example](https://raw.githubusercontent.com/zhiyiYo/PyQt-Fluent-Widgets/master/docs/source/_static/Interface.jpg)
+
+使用方法参考[中文文档](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/blob/master/docs/README_zh.md)
+
+
 ### Qt-Material
 
 [UN-GCPDS/qt-material](https://github.com/UN-GCPDS/qt-material) ——PySide2、PySide6、PyQt5和PyQt6的Material风格样式表

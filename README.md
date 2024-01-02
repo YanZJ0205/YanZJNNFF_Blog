@@ -4,7 +4,7 @@
 
 - 🔭 I’m fine.
 - 📫 How to reach me: 1057670698@qq.com
-- 💼 My Blog: [here](https://dribble-njr.github.io/blog/)
+- 💼 My Blog: [here](https://yzjnnff.github.io/blog/)
 
 ### Install
 Before running the project, you need to install node.js

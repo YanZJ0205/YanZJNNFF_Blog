@@ -2,7 +2,7 @@
 title: QSS
 date: 2023-12-29
 icon: QSS
-cover: "https://images.pexels.com/photos/19616610/pexels-photo-19616610.jpeg"
+cover: "https://images.pexels.com/photos/772476/pexels-photo-772476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 category: 
   - Qt
 tag:

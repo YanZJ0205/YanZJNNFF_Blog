@@ -1,7 +1,7 @@
 ---
 title: Markdown基础
 date: 2024-1-3
-cover: "https://wallpapers.com/images/high/naruto-sage-mode-poster-1kjiqw39sexoc8pf.webp"
+cover: "https://images.pexels.com/photos/789380/pexels-photo-789380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 category: 
   - Markdown
 tag:

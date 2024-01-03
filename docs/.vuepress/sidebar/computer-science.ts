@@ -19,6 +19,12 @@ export default [
     children: ['', '001-character-encoding']
   },
   {
+    text: 'Markdowm',
+    collapsible: true,
+    prefix: '/computer-science/markdown/',
+    children: ['', '001-markdown-base']
+  },
+  {
     text: 'Qt',
     collapsible: true,
     prefix: '/computer-science/qt/',

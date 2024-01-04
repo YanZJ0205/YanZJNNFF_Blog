@@ -4,7 +4,7 @@ layout: BlogHome
 icon: home
 title: Home
 heroText: Hiya
-bgImage: /French_fries.jpg
+bgImage: /frenchfries1.jpg
 tagline: No tomato sauce, please.
 heroFullScreen: true
 

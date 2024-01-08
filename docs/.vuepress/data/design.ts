@@ -8,6 +8,12 @@ export const tools: LinkData[] = [
     link: "https://tinypng.com/",
   },
   {
+    name: "AI-bot",
+    desc: "查找各种AI工具",
+    icon: "https://ai-bot.cn/wp-content/uploads/2023/03/ai-bot-square-logo.png",
+    link: "https://ai-bot.cn/",
+  },
+  {
     name: "cloudconvert",
     desc: "支持几乎所有的音频，视频， 文档、电子书、存档、图像、电子表格和演示文稿格式。",
     icon: "https://cloudconvert.com/images/logo_flat_32.png",

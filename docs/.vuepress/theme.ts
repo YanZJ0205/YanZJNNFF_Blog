@@ -11,7 +11,7 @@ export default hopeTheme({
     email: '1057670698@qq.com'
   },
 
-  favicon: '/y_icon.ico',
+  favicon: '/favicon.ico',
 
   navbar: Navbar,
   sidebar: Sidebar,

@@ -1,0 +1,1 @@
+import{_ as c}from"./plugin-vue_export-helper-c27b6911.js";import{o,c as e}from"./app-3cbd57e0.js";const n={};function t(r,_){return o(),e("div")}const i=c(n,[["render",t],["__file","002-can-communication.html.vue"]]);export{i as default};

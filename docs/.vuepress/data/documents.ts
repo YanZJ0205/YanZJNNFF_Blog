@@ -31,4 +31,10 @@ export const documents: LinkData[] = [
     icon: "https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png",
     link: "https://google.github.io/styleguide/",
   },
+  {
+    name: "Microsoft docs",
+    desc: "有关 Microsoft 开发人员工具和技术的深度文章",
+    icon: "https://learn.microsoft.com/favicon.ico",
+    link: "https://learn.microsoft.com/zh-cn/docs/",
+  },
 ];

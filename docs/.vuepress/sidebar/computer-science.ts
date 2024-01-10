@@ -12,9 +12,9 @@ export default [
     children: ['', '001-can-base', '002-can-communication']
   },
   {
-    text: 'Qt',
+    text: 'Coding',
     collapsible: true,
-    prefix: '/computer-science/qt/',
-    children: ['', '001-qt-style-sheets']
+    prefix: '/computer-science/coding/',
+    children: ['', '001-qt-style-sheets', '002-dll-link']
   }
 ]

@@ -3,7 +3,7 @@
 ### About me 👋
 
 - 🔭 I’m fine.
-- 📫 How to reach me: 1057670698@qq.com
+- 📫 How to reach me: yanzjnnff@gmail.com
 - 💼 My Blog: [here](https://yzjnnff.github.io/blog/)
 
 ### Install

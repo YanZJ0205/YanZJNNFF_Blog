@@ -38,7 +38,7 @@ export default hopeTheme({
     avatar: '/avatar.jpg',
     roundAvatar: true,
     medias: {
-      GitHub: 'https://github.com//YanZJ0205',
+      GitHub: 'https://github.com/yzjnnff',
       Email: 'mailto:1057670698@qq.com',
       Weibo: "https://weibo.com/u/5815911701",
       Bilibili: 'https://space.bilibili.com/237549227?spm_id_from=333.999.0.0',

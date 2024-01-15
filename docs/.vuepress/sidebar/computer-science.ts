@@ -15,6 +15,6 @@ export default [
     text: 'Coding',
     collapsible: true,
     prefix: '/computer-science/coding/',
-    children: ['', '001-qt-style-sheets', '002-dll-link']
+    children: ['', '001-qt-style-sheets', '002-dll-link', '003-packages']
   }
 ]

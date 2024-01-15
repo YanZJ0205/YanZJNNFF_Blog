@@ -37,6 +37,12 @@ export const friends: LinkData[] = [
     link: "https://www.ruanyifeng.com/blog/",
   },
   {
+    name: "零度博客",
+    desc: "零度解说",
+    icon: "https://www.freedidi.com/wp-content/uploads/2021/11/%E6%88%91%E4%BB%AC207-7.png",
+    link: "https://www.freedidi.com/",
+  },
+  {
     name: "Leonus",
     desc: "进一寸有进一寸的欢喜。",
     icon: "https://q1.qlogo.cn/g?b=qq&nk=990320751&s=5",

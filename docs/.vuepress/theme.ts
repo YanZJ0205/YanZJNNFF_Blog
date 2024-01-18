@@ -67,7 +67,7 @@ export default hopeTheme({
 
   plugins: {
     blog: {
-      excerptLength: 0,
+      //excerptLength: 0,
     },
     
     comment: {
@@ -82,7 +82,6 @@ export default hopeTheme({
     // all features are enabled for demo, only preserve features you need here
     mdEnhance: {
       align: true,
-      alert: true,
       attrs: true,
       chart: true,
       codetabs: true,
@@ -92,6 +91,7 @@ export default hopeTheme({
       figure: true,
       flowchart: true,
       gfm: true,
+      hint: true,
       imgLazyload: true,
       imgSize: true,
       include: true,

@@ -16,5 +16,11 @@ tag:
 ## Common Packages
 各个语言都可以使用的常见Packages
 
+### [VTK](https://docs.vtk.org/en/latest/index.html)
 
-## C++ Packages
+>**可视化工具函数库**(VTK, Visualization Toolkit)是一个开源，跨平台，支持平行处理的图形应用函数库([维基百科](https://zh.wikipedia.org/wiki/VTK))。
+
+##### 参考资料
+
+[Doxygen文档](https://vtk.org/doc/nightly/html/)
+

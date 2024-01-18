@@ -3,7 +3,7 @@ export default [
     text: 'Markdowm',
     collapsible: true,
     prefix: '/computer-science/markdown/',
-    children: ['', '001-markdown-base', '002-handle-complex-form']
+    children: ['', '001-markdown-base', '002-handle-complex-form', '003-markdown-enhance']
   },
   {
     text: 'Network',
@@ -15,6 +15,6 @@ export default [
     text: 'Coding',
     collapsible: true,
     prefix: '/computer-science/coding/',
-    children: ['', '001-qt-style-sheets', '002-dll-link', '003-packages']
+    children: ['', '001-qt-style-sheets', '002-dll-link', '003-packages', '004-cmakelist-base']
   }
 ]

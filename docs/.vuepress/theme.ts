@@ -67,7 +67,7 @@ export default hopeTheme({
 
   plugins: {
     blog: {
-      //excerptLength: 0,
+      excerptLength: 30,
     },
     
     comment: {

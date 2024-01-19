@@ -718,6 +718,11 @@ title What Voldemort doesn't have?
 
 ## [流程图](https://plugin-md-enhance.vuejs.press/zh/guide/chart/flowchart.html)
 
+- 模块：start（原边长方形，表示开始）、end（圆边长方形，表示结束）、operation（长方形）、condition（菱形，选择条件）、subroutine、inputoutput（平行四边形，表示输入输出）
+- 定义使用模块的语法 ：`名称`+`=>(英文符号)`+`:`+` `+`自定义框内文字`；
+- 连线语法：模块之间使用`->`连接；判断条件在模块后面使用小括号内填写`yes`或`no`；连接方向在模块后面使用小括号内填写`left`或`right`
+- `|`后面作注释
+
 ````
 ```flow
 st=>start: 开始|past:>http://www.google.com[blank]

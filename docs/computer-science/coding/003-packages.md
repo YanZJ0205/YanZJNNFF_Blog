@@ -20,7 +20,6 @@ tag:
 
 >**可视化工具函数库**(VTK, Visualization Toolkit)是一个开源，跨平台，支持平行处理的图形应用函数库([维基百科](https://zh.wikipedia.org/wiki/VTK))。
 
-##### 参考资料
-
-[Doxygen文档](https://vtk.org/doc/nightly/html/)
-
+::: details 参考链接：  
+1. [Doxygen文档](https://vtk.org/doc/nightly/html/)
+:::

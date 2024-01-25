@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper-c27b6911.js";import{o as t,c as o,a as c}from"./app-a00a1096.js";const n={},_=c("p",null,"那个在马斯克心底驱使他的恶魔，是不是也是推动创新和进步所必须得呢？",-1),s=[_];function r(a,l){return t(),o("div",null,s)}const f=e(n,[["render",r],["__file","index.html.vue"]]);export{f as default};

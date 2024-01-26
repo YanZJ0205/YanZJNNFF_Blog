@@ -9,7 +9,7 @@ export const friends: LinkData[] = [
   {
     name: "njr",
     desc: "Enquanto houver 1% de chance,teremo 99% fé",
-    icon: "https://dribble-njr.github.io/blog/avatar.jpg",
+    icon: "https://dribble-njr.github.io/blog/avatar.jpeg",
     link: "https://dribble-njr.github.io/blog/",
   },
   {

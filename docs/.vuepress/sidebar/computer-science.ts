@@ -1,5 +1,11 @@
 export default [
   {
+    text: 'Algorithm',
+    collapsible: true,
+    prefix: '/computer-science/algorithm/',
+    children: ['', '001-kalman-filtering']
+  },
+  {
     text: 'Markdowm',
     collapsible: true,
     prefix: '/computer-science/markdown/',

@@ -5,4 +5,5 @@ icon: creative
 star: true
 ---
 
-待更新...
+todo list:
+- ffmpeg库常见函数，常用参数介绍

@@ -3,7 +3,7 @@ export default [
     text: 'Algorithm',
     collapsible: true,
     prefix: '/computer-science/algorithm/',
-    children: ['', '001-kalman-filtering']
+    children: ['', '001-kalman-filtering', '002-dbscan-clustering']
   },
   {
     text: 'Markdowm',

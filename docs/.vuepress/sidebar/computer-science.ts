@@ -9,7 +9,7 @@ export default [
     text: 'Markdowm',
     collapsible: true,
     prefix: '/computer-science/markdown/',
-    children: ['', '001-markdown-base', '002-handle-complex-form', '003-markdown-enhance']
+    children: ['', '001-markdown-base', '002-handle-complex-form', '003-markdown-enhance','004-markdown-latex']
   },
   {
     text: 'Network',
@@ -21,6 +21,6 @@ export default [
     text: 'Coding',
     collapsible: true,
     prefix: '/computer-science/coding/',
-    children: ['', '001-qt-style-sheets', '002-dll-link', '003-vtk', '004-cmakelist-base','005-opencv','006-qt-qcamera','007-ffmpeg','008-save-queue']
+    children: ['', '001-qt-style-sheets', '002-dll-link', '003-vtk', '004-cmakelist-base','005-opencv','006-qt-qcamera','007-ffmpeg','008-save-queue','009-device-class']
   }
 ]

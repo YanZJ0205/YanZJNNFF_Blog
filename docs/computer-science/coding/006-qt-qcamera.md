@@ -1,5 +1,5 @@
 ---
-title: QCamera Class
+title: QCamera类
 date: 2024-01-30
 icon: QSS
 cover: "https://images.pexels.com/photos/735987/pexels-photo-735987.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"

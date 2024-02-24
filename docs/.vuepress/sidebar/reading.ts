@@ -3,7 +3,13 @@ export default [
     text: 'Summary',
     collapsible: true,
     prefix: '/reading/summary',
-    children: ['', '001-2024-1']
+    children: ['', '001-2024-1','002-2024-2']
+  },
+  {
+    text: 'Some Storys',
+    collapsible: true,
+    prefix: '/reading/some-storys',
+    children: ['','the-b-lane-swimmer']
   },
   {
     text: 'Elon Musk',

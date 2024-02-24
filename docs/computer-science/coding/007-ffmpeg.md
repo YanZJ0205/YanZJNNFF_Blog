@@ -16,6 +16,72 @@ tag:
 ## FFMPEG库
 FFmpeg 是领先的多媒体框架，能够解码、编码、 转码、复用、解复用、流、过滤和播放几乎所有人类和机器创建的东西。
 
+### 常用音视频术语和概念
+- 容器/文件(Conainer/File)：指特定格式的多媒体文件，比如mp4、flv、mov等视频格式；
+- 媒体流(Stream)：一个容器（如mp4文件）中可存在多个流，可以是视频流、音频流、字幕流。
+- 数据帧/数据包（Frame/Packet）：一个流媒体是由大量的数据帧构成的。
+- 编码器/解码器：编解码器是以帧为单位进行压缩数据和复原数据的，对原始数据和压缩的数据进行转换。
+
+### FFMPEG常用库
+- libavutil
+核心工具库，例如log模块。在ffmpeg中很多功能模块都会依赖avutil库作一些基本的音视频操作。
+- **libavformat**
+文件格式和协议库，该模块是最重要的模块之一，封装了Protocol层和Demuxer、Muxer层。
+- **libavcodec**
+编解码库，封装了一些基本的Codec层。但是一些Codec是具备自己的License的，所以ffmpeg是没有默认把这类的库添加进来的，例如：libx264,FDK-AAC等库。ffmpeg就像一个平台一样，可以将第三方的Codec以插件的方式添加进来，然后为开发者提供统一的接口，进行使用。
+- **libswresample** 
+该模块用于音频重采样，可以对数字音频进行声道数、数据格式、采样率等多种基本信息进行转换。例如：把一段音频的声道由双声道转换成单声道的数据，就可以通过该库进行操作。
+- **libswscale**
+该模块提供了将图像进行格式信息转换的模块。例如：可以将YUV数据转换成RGB数据，可以将1280720的尺寸的数据缩放尺寸至800480的数据。
+- libavfilter
+音视频滤镜库，该库提供了音频和视频特效的处理功能。
+
+### FFMPEG常用函数
+
+#### 初始化
+
+- `avdevice_register_all()`：对设备进行注册；
+- `avformat_network_init()`：初始化网络库以及网络加密协议相关的库。
+
+#### 封装相关函数
+- `avformat_alloc_context()`：负责申请一个AVFormatContext上下文结构体的内存，并进行简单的初始化，以提供给其他函数使用；
+- `avformat_free_context()`：释放不使用的AVFormatContext；
+- `avformat_close_input()`：关闭解复用器。
+- `avformat_free_context()`：进行释放；
+- `avformat_open_input()`：打开输入视频文件；
+- `avformat_find_stream_info()`：获取视频文件信息；
+- `av_read_frame()`：读取音视频包；
+- `avformat_seek_file()`：根据时间戳定位文件的位置；
+- `av_seek_frame()`：根据流的大小定位文件的位置；
+
+封装格式步骤：
+1. 分配解复用器上下文（avformat_alloc_context()）；
+2. 根据url打开本地文件或网络流（avformat_open_input()）；
+3. 读取媒体的数据包，查找流信息（avformat_find_stream_info()）；
+4. 遍历数据
+   - 从文件中读取数据包（av_read_frame()）；
+   - 或者 定位文件位置进行遍历（avformat_seek_file()、av_seek_frame()）；
+5. 关闭解复用器（avformat_close_input()）或释放不使用的资源；
+
+#### 解码相关函数
+- `avcodec_alloc_context3()`：分配解码器上下文；
+- `avcodec_find_decoder()`：根据ID查找解码器；
+- `avcodec_find_decoder_by_name()`：根据解码器名字查找解码器；
+- `avcodec_open2()`：打开编解码器；
+- `avcodec_send_packet()`：发送编码数据包；
+- `avcodec_receive_frame()`：接受解码后的数据；
+- `avcodec_free_context()`：释放解码器上下文，此函数包含了avcodec_close()；
+- `avcodec_close()`：关闭解码器；
+
+#### 常用数据结构
+- `AVFormatContext`：封装格式上喜爱文结构体，统领全局的结构体，保存了视频文件封装格式等相关信息；
+- `AVInputFormat`：输入的format；封装格式（例如：FLV、MP4），每个封装格式都对应一个该结构体；
+- `AVOutputFormat`：输出的format，例如：输出到网络流，输出到文件等；
+- `AVStream`：一个视频容器（即文件）中存在多路流数据，每路流都对应一个该结构体，例如：视频流、音频流、字幕流等；
+- `AVCodecContext`：编解码器上下文结构体，保存了音视频编解码相关的信息；
+- `AVCodec`：每一种音视频编解码器（例如：H.264解码器）都对应一个该结构体；
+- `AVPacket`：存储一帧压缩编码数据；
+- `AVFrame`：存储一帧解码后的数据（可以是视频解码后的像素数据，也可以是音频采样后的数据）；
 
 ## 实例
 使用ffmpeg库连接USB摄像头，可以正常播放以及保存。
@@ -399,4 +465,5 @@ int Camera::Saving() {
 
 ::: details 参考链接：  
 1. [FFmpeg 中文网](https://ffmpeg.p2hp.com/)
+2. [ffmpeg常用库、术语、API、数据结构总结](https://blog.csdn.net/qq_17623363/article/details/122146742)
 :::

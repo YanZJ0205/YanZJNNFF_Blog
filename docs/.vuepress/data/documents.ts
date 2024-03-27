@@ -37,4 +37,16 @@ export const documents: LinkData[] = [
     icon: "https://learn.microsoft.com/favicon.ico",
     link: "https://learn.microsoft.com/zh-cn/docs/",
   },
+  {
+    name: "Learn Modern C++",
+    desc: "An Introductory Tutorial for Modern C++",
+    icon: "https://learnmoderncpp.com/favicon.ico",
+    link: "https://learnmoderncpp.com/",
+  },
+  {
+    name: "Hello 算法",
+    desc: "Knowledge isn't free. You have to pay attention.",
+    icon: "https://www.hello-algo.com/assets/images/logo.svg",
+    link: "https://www.hello-algo.com/",
+  },
 ];

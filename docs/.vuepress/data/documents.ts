@@ -49,4 +49,10 @@ export const documents: LinkData[] = [
     icon: "https://www.hello-algo.com/assets/images/logo.svg",
     link: "https://www.hello-algo.com/",
   },
+  {
+    name: "AI By Doing",
+    desc: "动手实战人工智能",
+    icon: "https://aibydoing.com/favicon.ico",
+    link: "https://aibydoing.com/intro",
+  },
 ];

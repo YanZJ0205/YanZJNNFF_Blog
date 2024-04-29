@@ -88,4 +88,10 @@ export const design: LinkData[] = [
     icon: "https://www.materialui.co/favicon.gif",
     link: "https://www.materialui.co/",
   },
+  {
+    name: "Anna's Archive",
+    desc: 'The largest truly open library in human history.',
+    icon: "https://annas-archive.se/favicon.ico",
+    link: "https://annas-archive.se/",
+  },
 ];

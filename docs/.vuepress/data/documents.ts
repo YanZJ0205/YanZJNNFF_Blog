@@ -4,7 +4,7 @@ export const documents: LinkData[] = [
   {
     name: "vuepress",
     desc: "vuepress说明文档",
-    icon: "https://vuepress.vuejs.org/logo.png",
+    icon: "https://vuepress.vuejs.org/images/icons/favicon-32x32.png",
     link: "https://vuepress.vuejs.org/zh/guide/",
   },
   {
@@ -52,7 +52,13 @@ export const documents: LinkData[] = [
   {
     name: "AI By Doing",
     desc: "动手实战人工智能",
-    icon: "https://aibydoing.com/favicon.ico",
+    icon: "https://aibydoing.com/_static/logo.png",
     link: "https://aibydoing.com/intro",
+  },
+  {
+    name: "LaTex入门与进阶",
+    desc: "开始学习 LaTeX",
+    icon: "https://latex.lierhua.top/favicon.png",
+    link: "https://latex.lierhua.top/",
   },
 ];

@@ -72,4 +72,10 @@ export const friends: LinkData[] = [
     icon: "https://www.eula.club/avatar.png",
     link: "https://www.eula.club"
   },
+  {
+    name: "SuperTechFans",
+    desc: "HackerNews的每日摘要",
+    icon: "https://www.supertechfans.com/logo.jpg",
+    link: "https://www.supertechfans.com/cn/"
+  },
 ];

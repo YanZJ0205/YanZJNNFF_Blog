@@ -73,9 +73,9 @@ export const friends: LinkData[] = [
     link: "https://www.eula.club"
   },
   {
-    name: "SuperTechFans",
-    desc: "HackerNews的每日摘要",
-    icon: "https://www.supertechfans.com/logo.jpg",
-    link: "https://www.supertechfans.com/cn/"
+    name: "荒流的笔趣屋",
+    desc: "应无所住，而生其心",
+    icon: "https://figure-bed.chua-n.com/logo/荒流.png",
+    link: "https://chua-n.com/blog/"
   },
 ];

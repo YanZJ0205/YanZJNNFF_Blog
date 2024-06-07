@@ -94,4 +94,10 @@ export const design: LinkData[] = [
     icon: "https://annas-archive.se/favicon.ico",
     link: "https://annas-archive.se/",
   },
+  {
+    name: "SuperTechFans",
+    desc: "HackerNews的每日摘要",
+    icon: "https://www.supertechfans.com/logo.jpg",
+    link: "https://www.supertechfans.com/cn/"
+  },
 ];

@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-c27b6911.js";import{o,c as t,a as s}from"./app-0597aaff.js";const c={},n=s("p",null,"Some storys.",-1),_=[n];function r(a,l){return o(),t("div",null,_)}const m=e(c,[["render",r],["__file","index.html.vue"]]);export{m as default};

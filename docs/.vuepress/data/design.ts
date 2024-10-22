@@ -100,4 +100,10 @@ export const design: LinkData[] = [
     icon: "https://www.supertechfans.com/logo.jpg",
     link: "https://www.supertechfans.com/cn/"
   },
+  {
+    name: "JetBrains active code",
+    desc: "active JetBrains",
+    icon: "https://gitee.com/favicon.ico",
+    link: "https://gitee.com/superbeyone/J2_B5_A5_C4"
+  },
 ];

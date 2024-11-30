@@ -164,4 +164,5 @@ $$\begin{aligned}
 2. [运动模型（CV&CA&CTRV）](https://blog.csdn.net/ouok000/article/details/125999213)
 3. [DR_CAN(卡尔曼滤波器)](https://www.bilibili.com/video/BV1ez4y1X7eR/?spm_id_from=333.999.0.0&vd_source=2d40d7c7101925535ea5fadd4c60f031)
 4. [无迹卡尔曼滤波推导Part1](https://blog.csdn.net/heqiunong/article/details/127082510)
+5. [卡尔曼滤波python推导](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python)
 :::
